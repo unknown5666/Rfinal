@@ -28,7 +28,7 @@ const Footer = () => {
     return (
         <div className="global-wrapper">
             <footer>
-                <div className="copyR">© SK AD</div>                
+                <div className="copyR">©  Rashed Ahmed</div>                
             </footer>
         </div>
     )

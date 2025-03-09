@@ -10,24 +10,27 @@ const About = ({ data, location }) => {
 
   return (
       <div>
-      <div>
-        <Navbar></Navbar>
-      </div>
-      <div className="body-global-wrapper" style={aboutStyle}>
-        <br />
-        <p className="titleimage" style={aboutStyle}>
-          My name is Rashed Ahmed. I am 29 years old, born in 1995. I stand tall at 180 cm and weigh 80 kg. I have gained experience working in commercials and am passionate about pursuing a career in modeling and acting.
-          <br />
-          I hail from the UAE and am fluent in both English and Arabic.
-          <br /><br />
-          <u style={aboutStyle}>Details:</u>
-          <br />
-          Height: 1.80 m
-          <br /><br />
-          <a href="mailto:rashed.binsaidan@hotmail.com" target="_blank" rel="noopener noreferrer" style={linkStyle}>Send me an Email</a> or contact me on <a href="https://www.instagram.com/rshood_a" target="_blank" rel="noopener noreferrer" style={linkStyle}>Instagram</a>.
-        </p>
-      </div>
-      <div>
+        <div>
+          <Navbar></Navbar>
+        </div>
+        <div className="body-global-wrapper">
+          <br></br>
+          <p className="titleimage">My name is Rashed Ahmed. I am 29 years old, born in 1995. I stand tall at 180 cm . I have gained experience working in commercials and am passionate about pursuing a career in modeling and acting.
+<br></br>
+I hail from the UAE and am fluent in both English and Arabic. 
+            <br></br>
+            <br></br>
+            <u>Details:</u>
+            <br></br>
+            Height: 1.86 m
+            <br></br>
+            CHEST: 42.5
+            <br></br>
+            <br></br>
+            <a href="mailto:rashed.binsaidan@hotmail.com" target="_blank" rel="noopener noreferrer">Send me an Email</a> or contact me on  <a href="https://www.instagram.com/rshood_a" target="_blank" rel="noopener noreferrer">Instagram</a>.
+          </p>
+        </div>
+        <div>
           <Footer></Footer>
         </div>        
       </div>    
